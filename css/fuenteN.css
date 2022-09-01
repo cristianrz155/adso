@@ -1,12 +1,16 @@
 body{
-    background-color: rgb(24, 24, 9);
+    background-color: rgb(84, 125, 238);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 h1{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'waltograph', cursive;
     font-size: 9em;
-    color: red;
+    color: rgb(255, 255, 255);
+}
+@font-face {
+    font-family:'waltograph' ;
+    src: url(../fonts/Walter.ttf);
 }
