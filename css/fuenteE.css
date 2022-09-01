@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-family: "ds_digital";
+    font-size: 5em;
+    color: black;
+}
+@font-face {
+    font-family: "ds_digital";
+    src: url(../fonts/DS-DIGII.TTF);
+}
