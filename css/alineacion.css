@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+}
+.izquierda{
+    text-align: left;
+}
+.centro{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
