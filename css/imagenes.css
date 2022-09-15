@@ -1,0 +1,16 @@
+img {
+    width: 30%;
+    right: 30%;
+    margin: 2px;
+    display: flex;
+    text-align: justify;
+
+}.box-dog{
+    display: flex;
+}
+h1,h2{
+    text-align: center;
+}
+.img-perro{
+    text-align: center;
+}
