@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.box{
+    background-color: rgb(25, 192, 125);
+    text-align: right;
+}
+li{
+    font-size: 3em;
+    display: inline-block;
+    margin: 36px;
+}
