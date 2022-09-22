@@ -1,6 +1,7 @@
 .img-100 {
-    width: 100%;
+    width: 550px;
     padding-left: 50px;
+    height: 500;
 }.box-dog{
     display: inline-flex;
 }
@@ -10,26 +11,13 @@
 h1,h2{
     text-align: center;
 }
-.img-perro{
-  height: 500px;
-  width: 550px;
-
-}
-.img-perro1{
-    height: 500px;
-    width: 550px;
-  }
 .img-perro2{
-    height: 500px;
-    width: 600px;
+    height: 410px;
+    width: 550px;
 }
 .texto {
     text-align: center;
 }
-.perros {
-    text-align: center;
-}
-
 p{
     text-align: justify;
 }
@@ -44,12 +32,21 @@ p{
 .img-perro3{
     height: 500px;
     width: 550px;
+    padding-left: 50px;
 }
 .img-perro4{
     height: 500px;
     width: 550px;
+    padding-left: 50px;
 }
 .img-perro5{
     height: 500px;
-    width: 600px;
+    width: 550px;
+    padding-left: 50px;
+}
+.text1{
+    text-align: justify;
+        width: 33em;
+        padding-left: 50px;
+
 }
