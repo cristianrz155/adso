@@ -1,12 +1,13 @@
 .img-100 {
     width: 550px;
     height: 500;
-    border: 8px groove black;
     border-radius: 10%;
 }.box-dog{
     display: inline-block;
     vertical-align: top;
-    margin: 1.5px 1.2%;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 h1{
     text-align: center;
