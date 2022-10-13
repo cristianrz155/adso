@@ -23,3 +23,35 @@ padding: 10px 12px;
     height: 100px;
     width: 100px;
 }
+.letra-color {
+    color: white;
+    background-color: rgb(0, 139, 139);
+}
+.letra-a{
+    background-color: rgb(163, 241, 45);
+    color: white;
+}
+.letra-b{
+    background-color: rgb(47, 206, 255);
+    color: white;
+}
+.letra-c{
+    background-color: rgb(219, 130, 14);
+    color: white;
+}
+.letra-d{
+    background-color: rgb(68, 30, 207);
+    color: white;
+}
+.letra{
+    text-align: center;
+}
+.x{
+    text-align: center;
+}
+.y{
+    text-align: center;
+}
+.no{
+    text-align: center;
+}
