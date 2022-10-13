@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>citas medicas </h1>
+    <form >
+        <fieldset>
+            <legend>ingrese la informacion solicitada </legend>
+                <label>tipo de documento </label><br>
+            <select>
+                <option value="">registro civil</option>
+                <option value="">targeta de identidad</option>
+                <option value="">cedula de ciudadania </option>
+                <option value="">cedula de extrangeria </option>
+            </select><br>
+            <label>ingrese su numero de documento </label><br>
+                <input type="text" placeholder="ingrese # documento "><br>
+            <label >ingrese sus nombre </label><br>
+                <input type="text" placeholder="Nombre"><br>
+            <label >ingrese sus apellidos </label><br>
+                <input type="text" placeholder="Apellidos"><br>
+            <label >ingrese su genero  </label><br>
+                <input type="radio" name="genero" id="">Masculino <br>
+                <input type="radio" name="genero" id="">Femenino<br>
+                <input type="radio" name="genero" id="">No esta seguro<br>
+                <br>
+            <label for="">seleccione el dia de la cita</label>
+                <input type="checkbox" name="diacita" id="">lunes<br>
+                <input type="checkbox" name="diacita" id="">martes<br>
+                <input type="checkbox" name="diacita" id="">mircoles<br>
+                <input type="checkbox" name="diacita" id="">jueves<br>
+                <input type="checkbox" name="diacita" id="">viernes<br>
+                <br>
+            <label for="">dudas e inquietudes</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="enviar"><br>
+                <button>confirmar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

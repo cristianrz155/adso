@@ -1,0 +1,13 @@
+label{
+    display: block;
+}
+input[type="text"]{
+    padding: 6px;
+    font-size: 0.8em;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(64,64,64);
+}
+input[type="text"]:focus{
+    outline: none;
+}
