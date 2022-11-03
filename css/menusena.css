@@ -1,0 +1,44 @@
+.ta {
+    display: inline-block;
+    border-right: 2PX solid rgb(226, 70, 13);
+    background-color: rgb(253, 253, 253);
+    padding: 8px 10px;
+    margin-left: 20 px;
+
+ }
+.ta:hover{
+background-color: rgb(220, 220, 220);
+}
+ a {
+    text-decoration: none;
+    color: rgb(107, 94, 94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ nav{
+    display:inline-block;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+ }
+ .tex{
+  display:block;  
+  margin: 15px;
+  border: 5px solid transparent;
+  background-color: rgb(87, 87, 87);
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  
+ }
+ .tex:hover{
+    background-color: rgb(119, 103, 103);
+ }
+ .col{
+    color: white;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ }
+ .la{
+    margin-left: 40px
+ }
