@@ -5,7 +5,7 @@
 }
 .main-nav{ 
     width: 100%;
-    background-color: rgb(49, 48, 45);
+    /* background-color: rgb(49, 48, 45); */
 }
 .bar-menu{
     color: white;
@@ -16,6 +16,7 @@
 .main-menu{
     height: 80px;
     list-style: none;
+    background-color: rgb(49, 48, 45);
 
 }
 .bar-menu{
@@ -33,16 +34,20 @@
 .item-main-menu{
     height: 80px;
     display: inline-block;
-    padding: 20px 45px;
+    padding: 20px 120px;
+    text-align: center;
 }
 li:hover{
     cursor: pointer;
     background-color: black;
 }
+.bar-menu{
+    background-color: rgb(49, 48, 45); */
+}
 @media only screen and (max-width: 1152px){
-    .item-main-menu{
+    .main-menu{
     background-color: rgb(128, 123, 123);
-    visibility: visible;
+    visibility:hidden;
     display: block;
     text-align: center;}
     .bar-menu{
@@ -56,5 +61,6 @@ li:hover{
     }
     p{
         text-align: center;
+        padding: 0%;
     }
 }
