@@ -1,0 +1,133 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin: 15px; 
+    font-size: 3em;
+    color: azure;
+}
+.box-direction{
+    display: flex;
+    background-color: aqua;
+    flex-direction: flex;
+}
+.box-wrap{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.box-nowrap{
+    display: flex;
+    background-color: aqua;
+flex-flow: row nowrap;
+}
+.box-wrap-continuo{
+    display: flex;
+    flex-flow: column wrap;
+    height: 415px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 40px;
+}
+.box-space-between{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.box-space-around{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+}
+.box-space-evenly{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+.box-flex-start{
+    display: flex;
+    background-color: aqua;
+    justify-content: flex-start;
+}
+.box-flex-end{
+    display: flex;
+    background-color: aqua;
+    justify-content: flex-end;
+    flex-flow: row-reverse;
+}
+.box-flex-center{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+.box-aling-start{
+    display: flex;
+    background-color: aqua;
+    align-items: flex-start;
+}
+.box44{
+    height: 500px;
+}
+.box45{
+    height: 200px;
+}
+.box-aling-end{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
+    border-bottom: 2px solid blanchedalmond;
+    box-shadow: 0 2px 5px rgb(46, 46,46);
+    width: 420px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6px;
+    text-align: center;
+}
+.box47{
+    height:150px ;
+    background-color: rgb(70, 73, 73);
+}
+.box48{
+    height:300px;
+    background-color: rgb(130, 136, 136);
+}
+
+.box49{
+    height:400px ;
+    background-color: rgb(15, 63, 221);
+}
+
+.box50{
+    height:80px ;
+    background-color: rgb(90, 90, 52);
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+}
+.vvvd{
+    transform: rotate(-90deg);
+    font-size: 2em;
+   /*  background-color: brown; */
+    height: 40px;
+    width: 400px;
+    margin-left: 15.5em;
+    position: absolute;
+    margin-top: 5.5em;
+    text-align: center;
+}
+.lo{
+    border: solid 2px black;
+    transform: rotate(-90deg);
+    margin-right: 26.8em;
+    width: 430px;
+    position: absolute;
+    margin-left: 31.5em;
+    margin-top: 13.2em;
+    box-shadow: 0 5px 15px;
+}
