@@ -1,0 +1,50 @@
+
+.box-main-3{
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows:repeat(5,200px);
+  /*   border:2px solid rgb(158, 137, 137); */
+    width: 1400px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+.dias{
+    padding-bottom: 100px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows:repeat(1,200px);
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+}
+.box{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+.cuadro-1{
+    background-color: rgb(250, 155, 32);
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+.cuadritos{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+}
+.cuadro-2{
+    background-color: rgb(250, 155, 32);
+}
+.cuadro-3{
+    background-color: rgb(250, 155, 32);}
+.cuadro-4{
+    background-color: rgb(250, 155, 32);
+}
+.cuadro-5{
+    background-color: rgb(250, 155, 32);
+}
