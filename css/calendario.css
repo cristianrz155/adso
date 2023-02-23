@@ -23,8 +23,8 @@
 .box{
     border-radius: 10px;
     border: 2px solid black;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 .cuadro-1{
     background-color: rgb(250, 155, 32);
@@ -34,7 +34,7 @@
 .cuadritos{
     border-radius: 10px;
     border: 2px solid black;
-    width: 200px;
+    width: 100px;
     height: 80px;
 }
 .cuadro-2{
