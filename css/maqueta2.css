@@ -1,10 +1,11 @@
+
 .mainbox{
     display: grid;
     grid-template: "cabeza        empty         empty" 150px
-                    "imagen-prin  imagen-prin  imagen-prin"600px
+                    "imagen-prin  imagen-prin  imagen-prin"800px
                     "aticulo1     aticulo2      aticulo3" 400px
                     "txt-art1     txt-art2      txt-art3" 500px/
-                     400px        400px         400px; 
+                     590px        590px         590px; 
     grid-gap: 50px; 
            
 }
@@ -12,15 +13,18 @@
     grid-area: cabeza;
     background-color: rgb(161, 111, 111);
     border-radius: 20px;
+    box-shadow: 10px 10px 10px;
 }
 .img-principal{
     grid-area: imagen-prin;
     background-color: rgb(10, 240, 240);
     border-radius: 20px;
+    box-shadow: 10px 10px 10px;
 }
 .img-articulo{
     background-color: rgb(216, 118, 118);
     border-radius: 40px;
+    box-shadow: 10px 10px 10px;
 }
 .one{
     grid-area: aticulo1;
@@ -66,7 +70,7 @@
                         "imagen-prin  imagen-prin  imagen-prin"250px
                         "aticulo1     aticulo2      aticulo3" 250px
                         "txt-art1     txt-art2      txt-art3" 800px/
-                         220px        220px         220px; 
+                         300px        300px         300px; 
         grid-gap: 60px; 
                
     }
