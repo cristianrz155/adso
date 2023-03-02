@@ -6,7 +6,7 @@
     display: grid;
     grid-template: "logo empresa consumidores inovacion acerca  web lupa hamburguesa "40px
     " img    img   img   img   img   img   img  img  "/
-     500px  200px 200px 200px 200px 50px  50px ;
+     500px  200px 200px 200px 200px 200px  200px ;
 }
 .logo{
     grid-area: logo;
@@ -30,15 +30,15 @@
 }
 .web{
     grid-area: web;
-    background-color: bisque;
+    background-color: rgb(158, 120, 74);
 }
 .lupa{
     grid-area: lupa;
-    background-color: bisque;
+    background-color: rgb(125, 106, 82);
 }
 .hamburguesa{
     grid-area: hamburguesa;
-    background-color: bisque;
+    background-color: rgb(87, 81, 70);
 }
 .texto-grid{
     color: rgb(0, 0, 0);
@@ -51,3 +51,20 @@
     background-color: brown;
     height: 500px;
 }
+.txt1{
+    grid-area: img;
+    background-color: brown;
+    height: 500px;
+}
+.txt2{
+    grid-area: img;
+    background-color: brown;
+    height: 500px;
+}
+.txt3{
+    grid-area: img;
+    background-color: brown;
+    height: 500px;
+}
+
+
