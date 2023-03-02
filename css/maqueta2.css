@@ -5,7 +5,7 @@
                     "aticulo1     aticulo2      aticulo3" 400px
                     "txt-art1     txt-art2      txt-art3" 500px/
                      400px        400px         400px; 
-    grid-gap: 80px; 
+    grid-gap: 50px; 
            
 }
 .header{
@@ -66,12 +66,12 @@
                         "imagen-prin  imagen-prin  imagen-prin"250px
                         "aticulo1     aticulo2      aticulo3" 250px
                         "txt-art1     txt-art2      txt-art3" 800px/
-                         250px        250px         250px; 
+                         220px        220px         220px; 
         grid-gap: 60px; 
                
     }
  }
-@media  only screen and  (max-width:768px){
+@media  only screen and  (max-width:825px){
         .mainbox{
        display: grid;
        width:  100%;
