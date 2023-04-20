@@ -60,6 +60,14 @@ imgMini1.addEventListener("click", function(){
   let btnSumar  = document.getElementById("btnSumar");
   let btnCantidad  = document.getElementById("btnCantidad");
   let numeroElementos = document.getElementById("numeroElementos");
+  let valorUnitario = 199000;
+  let valorUnitarioTxt = valorUnitario.toString();
+  let valorUnitarioPeso = new Intl.NumberFormat().format(valorUnitario);
+
+  let valorTotal = document.getElementById("valorTotal");
+  let valorTotalInt = 0;
+
+  
   
 
   btnSumar.addEventListener("click", function () {
@@ -70,6 +78,9 @@ let numeroElementosInt = parseInt(numeroElementostxt);
 let totalElementosInt = numeroElementosInt + 1;
 let totalElementostxt = totalElementosInt.toString();
 numeroElementos.innerHTML = totalElementostxt;
+valorTotal=valorUnitario * totalElementosInt
+alert(valorTotalInt);
+
   
 }
   });
@@ -84,4 +95,6 @@ numeroElementos.innerHTML = totalElementostxt;
       
     }
       });
+
+      let li
     
